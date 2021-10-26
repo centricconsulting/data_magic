@@ -1,3 +1,6 @@
+# Forked from 
+(https://github.com/firstlutfi/data_magic?ref=https://githubhelp.com) because of Faker updates and Data Magic not being maintained.  Forked to keep accessibility.
+
 # data_magic (updated version)
 
 This gem is ported from the original data_magic gem -> [here](https://github.com/cheezy/data_magic). Please read the original documentation first.
@@ -11,7 +14,7 @@ Requirement:
 Update your Gemfile to
 
 ````ruby
-gem 'data_magic', git: 'https://github.com/firstlutfi/data_magic.git', branch: 'master'
+gem 'data_magic', git: 'https://github.com/centricconsulting/data_magic.git', branch: 'master'
 ````
 Then run 
 ````ruby
