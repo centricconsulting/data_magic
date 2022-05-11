@@ -2,7 +2,7 @@
 
 source 'http://rubygems.org'
 
-gem 'byebug'
+gem 'debug'
 gem 'fuubar'
 gem 'growl'
 gem 'guard-cucumber'
@@ -10,5 +10,5 @@ gem 'guard-rspec'
 gem 'rake'
 gem 'rb-fsevent', require: false if RUBY_PLATFORM =~ /darwin/i
 
-# Specify your gem's dependencies in data_magic.gemspec
+# Specify your gem's dependencies in centric_data_magic.gemspec
 gemspec
