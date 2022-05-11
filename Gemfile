@@ -2,7 +2,7 @@
 
 source 'http://rubygems.org'
 
-gem 'debug'
+# gem 'debug'
 gem 'fuubar'
 gem 'growl'
 gem 'guard-cucumber'
