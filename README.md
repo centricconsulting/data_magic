@@ -1,12 +1,20 @@
 # Forked from 
 (https://github.com/firstlutfi/data_magic?ref=https://githubhelp.com) because of Faker updates and Data Magic not being maintained.  Forked to keep accessibility.
 
+# data_magic (updated version)
+
+This gem is ported from the original data_magic gem -> [here](https://github.com/cheezy/data_magic). Please read the original documentation first.
+I created this to make sure the gem stays updated with its dependencies. (The original gem seems to be unmaintained)
+
 ## How to Use
+Requirement:
+* Ruby >= 2.5.1
+* Faker >= 1.9
 
 Update your Gemfile to
 
 ````ruby
-gem 'centric_data_magic'
+gem 'data_magic', git: 'https://github.com/centricconsulting/data_magic.git', branch: 'master'
 ````
 Then run 
 ````ruby

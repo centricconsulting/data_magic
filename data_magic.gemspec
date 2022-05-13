@@ -3,13 +3,13 @@
 require File.expand_path('lib/data_magic/version', __dir__)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'centric_data_magic'
+  gem.name          = 'data_magic'
   gem.version       = DataMagic::VERSION
   gem.platform      = Gem::Platform::RUBY
-  gem.authors       = ['Jeff Morgan', 'Joseph Ours']
-  gem.email         = ['jeff.morgan@leandog.com', 'joseph.ours@centricconsulting.com']
+  gem.authors       = ['Jeff Morgan']
+  gem.email         = ['jeff.morgan@leandog.com']
   gem.license       = 'MIT'
-  gem.homepage      = 'http://github.com/centricconsulting/data_magic'
+  gem.homepage      = 'http://github.com/cheezy/data_magic'
   gem.summary       = 'Provides datasets to application via YAML files'
   gem.description   = 'Provides datasets to application stored in YAML files'
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   gem.require_paths = ['lib']
 
-  gem.required_ruby_version = '>= 2.7'
+  gem.required_ruby_version = '>= 2.5'
 
   gem.add_dependency 'faker', '>= 1.9'
   gem.add_dependency 'yml_reader', '>= 0.6'
